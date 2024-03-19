@@ -28,9 +28,9 @@ Return the known holidays for the given year.
 
 sub holidays {
     my ($self, %params) = @_;
- 
+
     my $dh = $self->{_adaptee}->new;
- 
+
     if ($dh) {
         return $dh->holidays($params{year});
     } else {
@@ -45,12 +45,12 @@ sub holidays {
 Return the holiday on the given day.
 
 =cut
- 
+
 sub is_holiday {
     my ($self, %params) = @_;
- 
+
     my $dh = $self->{_adaptee}->new;
- 
+
     if ($dh) {
         return $dh->is_holiday($params{year}, $params{month}, $params{day});
     } else {
