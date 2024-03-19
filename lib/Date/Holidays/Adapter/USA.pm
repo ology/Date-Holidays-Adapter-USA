@@ -65,6 +65,8 @@ __END__
 
 L<Date::Holidays>
 
+L<Date::Holidays::Adapter>
+
 L<Date::Holidays::USA>
 
 =cut
