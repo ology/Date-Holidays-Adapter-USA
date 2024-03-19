@@ -2,4 +2,4 @@ Revision history for Date-Holidays-Adapter-USA
 
 {{$NEXT}}
     - Mint with Dist::Zilla.
-    - Modify from Date::Holidays::Adapter::PT.
+    - Modify from Date::Holidays::Adapter::*.
