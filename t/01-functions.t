@@ -3,11 +3,15 @@ use strict;
 use warnings;
 
 use Test::More;
-use Test::Exception;
 
-use_ok 'Date::Holidays::Adapter::USA';
+use_ok 'Date::Holidays';
 
-lives_ok { Date::Holidays::Adapter::USA::foo(666) }
-    'lives through foo()';
+my $dh = new_ok 'Date::Holidays' => [ countrycode => 'USA', nocheck => 1 ];
+
+my $got = $dh->is_holiday(year => 2024, month => 1, day => 1);
+is $got, "New Year's", 'is_holiday';
+
+$got = $dh->holidays;
+is $got->{'0101'}, "New Year's", 'holidays';
 
 done_testing();
