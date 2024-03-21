@@ -1,6 +1,7 @@
 Revision history for Date-Holidays-Adapter-USA
 
 {{$NEXT}}
+    - Remove the accidental circular dependency from the dist.ini file.
 
 0.0100 2024-03-19 13:38:10
     - Mint with Dist::Zilla.
