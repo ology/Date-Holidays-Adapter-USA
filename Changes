@@ -2,6 +2,7 @@ Revision history for Date-Holidays-Adapter-USA
 
 {{$NEXT}}
     - No. Specify the dependency version.
+    - Also: Don't depend upon yourself please.
 
 0.0104 2024-05-23 18:08:37
     - Appease the tester gods...
