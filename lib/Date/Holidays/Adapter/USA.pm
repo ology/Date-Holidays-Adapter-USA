@@ -7,7 +7,7 @@ use warnings;
 
 use base qw(Date::Holidays::Adapter);
 
-our $VERSION = '0.0106';
+our $VERSION = '0.0107';
 
 =head1 DESCRIPTION
 
