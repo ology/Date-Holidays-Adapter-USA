@@ -1,18 +1,18 @@
 package Date::Holidays::Adapter::USA;
 
-# ABSTRACT: Adapter for USA holidays
+# ABSTRACT: DEPRECATED - Adapter for USA holidays
 
 use strict;
 use warnings;
 
 use base qw(Date::Holidays::Adapter);
 
-our $VERSION = '0.0108';
+our $VERSION = '0.0109_1';
 
 =head1 DESCRIPTION
 
-C<Date::Holidays::Adapter::USA> is the L<Date::Holidays> adapter for
-L<Date::Holidays::USA>.
+C<Date::Holidays::Adapter::USA> is now deprecated, but was the
+L<Date::Holidays> adapter for L<Date::Holidays::USA>.
 
 =cut
 

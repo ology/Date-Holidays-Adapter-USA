@@ -1,6 +1,7 @@
 Revision history for Date-Holidays-Adapter-USA
 
 {{$NEXT}}
+    - Deprecate this module.
 
 0.0108 2024-06-07 19:33:35
     - Keep in-sync with Date::Holidays::USA.
